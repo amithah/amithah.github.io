@@ -1,0 +1,36 @@
+/*html*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar*/
+.custom-nav {
+  padding: 1rem 3rem;
+}
+
+.custom-nav a {
+  color: #3e444a;
+}
+
+.custom-nav .navbar-brand {
+  padding-right: 40vw;
+}
+
+.banner-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Banner button*/
+.custom-btn {
+  background: #3e444a;
+  border: black;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
