@@ -1,10 +1,10 @@
-/*html*/
+/************* html *************/
 * {
   padding: 0;
   margin: 0;
 }
 
-/* Navbar*/
+/************* Navbar *************/
 .custom-nav {
   padding: 1rem 3rem;
 }
@@ -15,6 +15,11 @@
 
 .custom-nav .navbar-brand {
   padding-right: 40vw;
+}
+
+/************* Banner *************/
+.banner {
+  height: 100vh;
 }
 
 .banner-text {
@@ -31,6 +36,69 @@
   position: relative;
   left: 50%;
   top: 50%;
+}
+
+/************* About me *************/
+.about-me {
+  position: relative;
+  height: 100vh;
+}
+
+.about-me-heading {
+  margin: 5rem;
+}
+
+.about-me p {
+  padding: 5rem;
+}
+
+.about-me-img-container {
+  position: relative;
+  margin: 5rem;
+  height: 55vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  zoom: 150%;
+}
+
+/************* About me *************/
+.portfolio {
+  position: relative;
+  height: 100vh;
+}
+
+.portfolio-heading {
+  margin: 5rem;
+}
+
+.portfolio-card {
+  margin: 5rem;
+  height: 200px;
+}
+
+/************* Contact me *************/
+.contact-me {
+  position: relative;
+  height: 90vh;
+}
+
+.contact-me-heading {
+  margin: 5rem;
+}
+
+/************* Footer *************/
+.footer-box {
+  position: relative;
+  background-color: #cacaca;
+  height: 10vh;
+}
+
+.footer-box p {
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
