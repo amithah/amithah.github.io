@@ -4,7 +4,7 @@ title:  "How to implement social login in django"
 date:   2021-08-03 11:30:40 +0530
 categories: jekyll update
 ---
-Signing up each time we start using an application is inconvenient. Social sign up makes this process easier.
+Nobody likes to manually sign up for an application. Social sign up makes this process easier.
  If you have an existing social account, you can login using that account. 
 Let's explore how to do social sign up in Django using Google account.
 
