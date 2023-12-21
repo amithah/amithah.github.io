@@ -4,9 +4,6 @@ title:  "Getting Started with React Hooks: A Comprehensive Guide"
 date:   2023-12-19 15:00:00 +0000
 categories: react javascript tutorial
 ---
-
-# Getting Started with React Hooks: A Comprehensive Guide
-
 React Hooks have revolutionized state management and lifecycle methods in functional components. In this guide, we'll explore the fundamentals of React Hooks and how they can enhance your React development experience.
 
 ## Prerequisites
@@ -31,7 +28,7 @@ React Hooks are functions that enable you to use state and lifecycle features in
 
 The `useState` hook allows you to add state to your functional components. Here's a basic example:
 
-```jsx
+{% highlight python %}
 import React, { useState } from 'react';
 
 function Counter() {
@@ -44,11 +41,12 @@ function Counter() {
     </div>
   );
 }
+{% endhighlight %}
 ### 2. `useEffect`
 
 The `useEffect` hook is used for handling side effects in functional components. It's similar to `componentDidMount` and `componentDidUpdate` in class components.
 
-```jsx
+{% highlight python %}
 import React, { useState, useEffect } from 'react';
 
 function ExampleComponent() {
@@ -61,12 +59,11 @@ function ExampleComponent() {
 
   return <div>{data ? <p>Data: {data}</p> : <p>Loading...</p>}</div>;
 }
-
+{% endhighlight %}
 ### 3. Custom Hooks
 
 You can create custom hooks to encapsulate and reuse stateful logic. Here's an example:
-
-```jsx
+{% highlight python %}
 import { useState } from 'react';
 
 function useCounter(initialValue) {
@@ -78,6 +75,7 @@ function useCounter(initialValue) {
 
   return [count, increment];
 }
+{% endhighlight %}
 ### Conclusion
 
 React Hooks provide a more elegant and functional approach to managing state and side effects in your React applications. As you become more familiar with hooks, you'll appreciate the simplicity and reusability they bring to your code.
